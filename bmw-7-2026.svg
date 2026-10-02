@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#18191c"/><stop offset="1" stop-color="#050505"/></linearGradient>
+  <linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e9edf2"/><stop offset=".45" stop-color="#9ca4ad"/><stop offset="1" stop-color="#34383d"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2c3a48"/><stop offset="1" stop-color="#080b0f"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#fff"/><stop offset=".35" stop-color="#bfe7ff"/><stop offset="1" stop-color="#4d8fb5"/></radialGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<ellipse cx="800" cy="735" rx="570" ry="75" fill="#000" opacity=".8" filter="url(#shadow)"/>
+<!-- luxury sedan body -->
+<path d="M205 620 C250 555 340 522 455 500 L590 365 C635 319 706 292 785 292 L1015 292 C1090 293 1150 318 1205 360 L1330 480 C1390 500 1445 548 1470 620 L1440 675 C1390 695 1305 700 1235 700 L365 700 C295 700 230 687 185 665Z" fill="url(#body)" stroke="#cbd0d5" stroke-width="4"/>
+<!-- windows -->
+<path d="M510 487 L625 368 C660 334 711 317 775 317 L1000 317 C1055 318 1103 336 1140 369 L1250 478Z" fill="url(#glass)" stroke="#aeb6bf" stroke-width="5"/>
+<path d="M780 320 L780 481" stroke="#8e969e" stroke-width="5" opacity=".65"/>
+<path d="M1004 321 L1007 481" stroke="#8e969e" stroke-width="5" opacity=".65"/>
+<!-- shoulder line -->
+<path d="M310 535 C530 510 1020 505 1305 520" fill="none" stroke="#f2f4f6" stroke-width="7" opacity=".75"/>
+<path d="M315 555 C560 535 1030 531 1325 548" fill="none" stroke="#646a70" stroke-width="4" opacity=".65"/>
+<!-- kidney grille -->
+<path d="M710 536 C738 507 780 505 802 534 L802 592 C777 615 738 613 710 586Z" fill="#070809" stroke="#b9bec4" stroke-width="5"/>
+<path d="M808 534 C830 505 872 507 900 536 L900 586 C872 613 831 615 808 592Z" fill="#070809" stroke="#b9bec4" stroke-width="5"/>
+<path d="M730 530 L730 590 M750 516 L750 602 M770 512 L770 607 M790 515 L790 604 M820 515 L820 604 M840 512 L840 607 M860 516 L860 602 M880 530 L880 590" stroke="#70777e" stroke-width="3"/>
+<!-- headlights -->
+<path d="M470 535 Q530 505 625 514 L660 540 L615 565 L500 563Z" fill="#dcefff" stroke="#a8d7ef" stroke-width="4"/>
+<path d="M950 540 L985 514 Q1080 505 1140 535 L1110 563 L995 565Z" fill="#dcefff" stroke="#a8d7ef" stroke-width="4"/>
+<path d="M500 545 L620 535 M1010 535 L1130 545" stroke="#fff" stroke-width="8" opacity=".9"/>
+<!-- lower bumper -->
+<path d="M395 620 Q800 675 1205 620 L1270 665 Q800 735 330 665Z" fill="#151719" opacity=".9"/>
+<!-- wheels -->
+<g>
+ <circle cx="430" cy="675" r="91" fill="#090a0b" stroke="#aab0b6" stroke-width="7"/><circle cx="430" cy="675" r="57" fill="#272b2f" stroke="#d5d9dd" stroke-width="5"/>
+ <circle cx="430" cy="675" r="13" fill="#111"/><g stroke="#9da4aa" stroke-width="5"><path d="M430 625V725M380 675H480M395 640L465 710M465 640L395 710"/></g>
+ <circle cx="1170" cy="675" r="91" fill="#090a0b" stroke="#aab0b6" stroke-width="7"/><circle cx="1170" cy="675" r="57" fill="#272b2f" stroke="#d5d9dd" stroke-width="5"/>
+ <circle cx="1170" cy="675" r="13" fill="#111"/><g stroke="#9da4aa" stroke-width="5"><path d="M1170 625V725M1120 675H1220M1135 640L1205 710M1205 640L1135 710"/></g>
+</g>
+<!-- BMW roundel -->
+<circle cx="805" cy="430" r="28" fill="#f5f5f5" stroke="#111" stroke-width="5"/><path d="M805 405 A25 25 0 0 1 830 430 L805 430Z" fill="#1d5da7"/><path d="M805 455 A25 25 0 0 1 780 430 L805 430Z" fill="#1d5da7"/>
+<text x="800" y="120" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="9">SABER • AUTOMOTIVE</text>
+<text x="800" y="175" text-anchor="middle" fill="#aeb3b8" font-family="Arial,sans-serif" font-size="25" letter-spacing="4">BMW 7 SERIES · G70 · 2026</text>
+</svg>
